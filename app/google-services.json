@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048648296548",
+    "project_id": "aplikacija-za-susenje-mesa",
+    "storage_bucket": "aplikacija-za-susenje-mesa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048648296548:android:6612699fc568dc0345d771",
+        "android_client_info": {
+          "package_name": "com.example.aplikacija_za_susenje_mesa_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048648296548-393po7ub01gsjcaore1p05rcokgmfur6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEMZ9KhaqMwHYvnkQo7xSHIzIiHGhq23o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048648296548-393po7ub01gsjcaore1p05rcokgmfur6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

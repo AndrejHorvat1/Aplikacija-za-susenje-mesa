@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:layout_marginVertical="8dp"
+    android:background="@color/teal_200">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:id="@+id/title_text_view"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginVertical="4dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Broj dimova"
+            android:id="@+id/smokes_title"
+
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginVertical="4dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of smokes"
+        android:id="@+id/smokes_text_view"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginVertical="4dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Zadnji dim"
+            android:id="@+id/lastsmoke_title"
+
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginVertical="4dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last smoke"
+        android:id="@+id/last_smoke_text_view"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginVertical="4dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Prvi dim"
+            android:id="@+id/first_title"
+
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginVertical="4dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First smoke"
+        android:inputType="date"
+        android:id="@+id/first_smoke_text_view"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginVertical="4dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
